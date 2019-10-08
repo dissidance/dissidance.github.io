@@ -1,0 +1,20 @@
+@import url(./__cover-bg/cover__cover-bg.css);
+@import url(./__image/cover__image.css);
+@import url(./__link/cover__link.css);
+
+.cover {
+    position: relative;
+    width: 82.22%;
+    margin: 102px auto 0;
+}
+
+@media (max-width: 1279px) {
+    .cover {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .cover {
+        margin-top: 48px;
+    }
+}

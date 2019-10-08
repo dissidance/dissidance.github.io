@@ -1,0 +1,19 @@
+@import url(./__languages/header__languages.css);
+@import url(./__languages/__lang/header__languages__lang.css);
+@import url(./__languages/__lang/_ru/header__languages__lang_ru.css);
+@import url(./__logo/logo.css);
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    width: 82.3%;
+    height: auto;
+    margin: 0 auto 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        width: 90%;
+    }
+}
+

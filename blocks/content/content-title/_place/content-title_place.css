@@ -1,0 +1,24 @@
+.content-title_place {
+    width: 46%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .content-title_place {
+        width: 46%;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 1023px) {
+    .content-title {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .content-title_place {
+        font-size: 32px;
+        margin-left: 16px;
+        max-width: 80%;
+    }
+}

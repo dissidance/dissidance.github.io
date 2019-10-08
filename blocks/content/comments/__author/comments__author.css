@@ -1,0 +1,11 @@
+.comments__author {
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 1023px) {
+    .comments__author {
+        order: 1;
+        margin-bottom: 24px;
+    }
+}

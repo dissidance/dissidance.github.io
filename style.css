@@ -1,0 +1,56 @@
+@import url(./blocks/header/header.css);
+@import url(./blocks/content/lead/lead.css);
+@import url(./blocks/content/intro/intro.css);
+@import url(./blocks/content/photo-grid/photo-grid.css);
+@import url(./blocks/content/content-title/content-title.css);
+@import url(./blocks/content/content-title/_place/content-title_place.css);
+@import url(./blocks/content/content-subtitle/content-subtitle.css);
+@import url(./blocks/content/places/places.css);
+@import url(./blocks/content/video/video.css);
+@import url(./blocks/content/comments/comments.css);
+@import url(./blocks/content/cover/cover.css);
+@import url(./blocks/content/content-title/_cover/content-title_cover.css);
+@import url(./blocks/content/content-subtitle/_cover/content-subtitle_cover.css);
+@import url(./blocks/footer/footer.css);
+
+@font-face {
+    src: url(./fonts/Inter/Inter-Regular.woff2);
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(./fonts/Inter/Inter-ExtraBold.woff2);
+    font-family: 'Inter';
+    font-weight: bold;
+}
+ 
+.page {
+    margin: auto;
+    font-family: Inter;
+    color: #fff;
+    background-color: #2A2C2F;
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 0;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+.background {
+    background-color: #2A2C2F;
+}
+
+.link {
+    opacity: 1;
+    color: #fff;
+}
+
+.link:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s linear 0s;
+}

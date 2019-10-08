@@ -1,0 +1,19 @@
+.comments__comment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: calc(100%/3 - 19px);
+}
+
+@media (max-width: 1023px) {
+    .comments__comment {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 48px;
+    }
+    .comments__comment:last-child {
+        margin-bottom: 0;
+    }
+}
+
